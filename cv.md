@@ -19,6 +19,9 @@ Hope to become an WEB developer to acquare new skills and moral or material rewa
  - JavaScript 
  - HTML 
  - CSS
+ 
+  Code
+  ----
 
   Work/Education
   --------------
