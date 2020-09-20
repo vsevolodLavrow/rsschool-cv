@@ -1,0 +1,28 @@
+body {
+    /* Position */
+    position: relative;
+    width: 1280px;
+    height: 1024px;
+    left: 25px;
+    top: 25px;
+
+    /* Box-model */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    /* Typography */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: start;  
+
+    /* Visual */
+    background-image: url("");
+    background-color: #cccccc;
+
+    /* Misc */
+    opacity: 1.0;
+}
+
