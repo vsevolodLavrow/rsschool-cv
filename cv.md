@@ -4,8 +4,9 @@
   Contact info
   ------------
 
-e-mail: lavrow.vs@gmail.com
-cell: +79046304492
+ e-mail: lavrow.vs@gmail.com
+ 
+ cell: +79046304492
 
   About myself
   ------------
