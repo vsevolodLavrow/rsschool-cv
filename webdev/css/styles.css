@@ -1,0 +1,136 @@
+/* body-14-regular */
+
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #C4C4C4;
+}
+
+/* h2-24-bold-eppercase */
+
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: bolt;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+/* h3-16-bold-uppercase */
+
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+body {
+    /*Position*/
+    position: relative;
+    width: 1600px;
+    height: 4182px;
+
+    /*typography*/
+    font: normal 14px Roboto, sans-serif;
+    color: #C4C4C4;
+
+    /*Visual*/
+    background-color: #ffffff;
+}
+
+    /*First Screen image wraper*/
+
+#firstScreen {
+    background-image: url(../img/firstScreen/bg-image-wrapper.png);
+    position: absolute;
+    width: 1600px;
+    height: 744px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    position: absolute;
+    width: 1600px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 25px;
+}
+
+#about{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: 502px;
+    
+}
+#syllabys{
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: 620px;
+    
+}
+#project{
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: 923px;
+    
+}
+#faq{
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 1058px;
+}
+
+#socials {
+    position: absolute;
+    bottom: 89px;
+    width: 200px;
+    height: 20px;
+}
+
+button {
+    position: absolute;
+    left: 707px;
+    width: 184px;
+    height: 46px;
+    padding: 15px 47px;
+
+    background: #00AFDB;
+
+}
