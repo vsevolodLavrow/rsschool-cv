@@ -21,6 +21,12 @@ h2 {
     
 }
 
+h3 {
+    font: normal 500 16px/20px 'Roboto', sans-serif;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
 #firstScreen {
     background-image: url(../img/bg-image-wrapper.png);
     position: absolute;
@@ -246,5 +252,85 @@ h2 {
     position: absolute;
     left: 0px;
     top: 187px;
+}
 
+
+/* third slide */
+#thirdScreen {
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    left: 0px;
+    top: 1586px;
+
+    background-color: #f5f6f7;
+}
+
+
+#ourCommunity {
+    position: absolute;
+    width: 300px;
+    height: 175px;
+    left: 269px;
+    top: 156px;
+
+    text-align: center;
+    color: #4e4e4e;
+}
+
+#icon{
+    position: absolute;
+    left: 127px;
+    top: 0px;
+}
+
+#ourCommunityText {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    left: 0px;
+    top: 45px;
+
+    color: #373737;
+}
+#slider{
+    position: absolute;
+    width: 1000px;
+    height: 244px;
+    left: 706px;
+    top: 120px;
+    display: flex;
+    
+
+}
+.sliderItems {
+    padding-right: 30px;
+}
+
+#nav{ 
+    font: normal 400 18px/25.2px 'Roboto', sans-serif;
+    color: #373737;
+
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 1249px;
+    top: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#rectangle1 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 0px;
+    top: 10px;
+
+
+    border-bottom: 2px solid #373737;
+    border-left: 2px solid #373737;
+    box-sizing: border-box;
+    transform: rotate(45deg);
 }
