@@ -30,6 +30,7 @@ body {
     left: 0px;
     top: 0px;
 }
+
 #logo {
     position: absolute;
     width: 44px;
@@ -37,6 +38,8 @@ body {
     left: 778px;
     top: 25px;
 }
+
+
 #syllabus {
     position: absolute;
     left: 625px;
@@ -47,6 +50,8 @@ body {
     text-decoration: underline;
 
 }
+
+
 #about {
     position: absolute;
     left: 502px;
@@ -58,6 +63,8 @@ body {
 #about {
     cursor: pointer;
 }
+
+
 #project {
     position: absolute;
     left: 923px;
@@ -67,6 +74,8 @@ body {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
 #faq {
     position: absolute;
     left: 1058px;
@@ -77,40 +86,6 @@ body {
     text-decoration: underline;
 }
 
-/* Socials */
-
-#mail {
-    position: absolute;
-    left: 715px;
-    bottom: 89px;
-}
-#mail:hover {
-    cursor: pointer;
-}
-#fbook {
-    position: absolute;
-    left: 765px;
-    bottom: 89px;
-}
-#fbook:hover {
-    cursor: pointer;
-}
-#instagram {
-    position: absolute;
-    left: 815px;
-    bottom: 89px;
-}
-#instagram:hover {
-    cursor: pointer;
-}
-#telegram {
-    position: absolute;
-    left: 865px;
-    bottom: 89px;
-}
-#telegram:hover {
-    cursor: pointer;
-}
 
 /*you life is web*/
 
@@ -143,9 +118,10 @@ body {
     top: 77px;
     width: 504px;
     height: 50px;
-   
+    
 }
 
+/*button*/
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -170,3 +146,37 @@ body {
     left: 709px;
     top: 406px;
 }
+    /* Socials */
+    
+    #mail {
+        position: absolute;
+        left: 715px;
+        bottom: 89px;
+    }
+    #mail:hover {
+        cursor: pointer;
+    }
+    #fbook {
+        position: absolute;
+        left: 765px;
+        bottom: 89px;
+    }
+    #fbook:hover {
+        cursor: pointer;
+    }
+    #instagram {
+        position: absolute;
+        left: 815px;
+        bottom: 89px;
+    }
+    #instagram:hover {
+        cursor: pointer;
+    }
+    #telegram {
+        position: absolute;
+        left: 865px;
+        bottom: 89px;
+    }
+    #telegram:hover {
+        cursor: pointer;
+    }
