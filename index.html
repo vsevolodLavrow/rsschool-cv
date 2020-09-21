@@ -3,48 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="../webdev/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Your life is webdev</title>
 </head>
 <body>
-  
-    <section id="photo">
-      <img src="img/picture.png" alt="photo" style="width: 128px; height: 128px;">
-      <h2>Vsevolod Lavrow</h2>
-    </section>
-  
-    <section id="contacts">
-      <h2>Contact info</h2>
-      <p>e-mail: lavrow.vs@gmail.com</p>
-      <p>cell: +79046304492</p>
-    </section>
-  
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </section>
+     
+    <!--First page--->
+    
+    <div id="firstScreen">
+
+            <!--header-->
+
+        <header class="header">
+                <img src="../webdev/img/firstScreen/logo.png" alt="logo" id="logo">
+            <nav>
+                <p id="about">About</p>
+                <p id="syllabus">Syllabus</p>
+                <p id="project">Projects</p>
+                <p id="faq">FAQ</p>
+            </nav>
+        </header>
+        
+            <!--your life is web-->
+            
+        <section id="promo">
+            <div class="content">
+                    <h1 id="life">your life is WebDev</h1>
+                    <p id="whatever">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+                </div>
+        </section>
+
+           <!--button-->
+
+        <div class="wrapper">
+            <button type="button" class="button" id="firstScreenButton">get started</button>
+        </div>
+
+            
+           <!--socials-->
+
+        <div id="socials">
+            <img id="mail" src="../webdev/img/mail.png" alt="mail" >
+            <img id="fbook" src="../webdev/img/facebook.png" alt="fbook">
+            <img id="instagram" src="../webdev/img/instagram.png" alt="instagram" >
+            <img id="telegram" src="../webdev/img/telegram.png" alt="telegram" >
+        </div>
+    </div>
+
+    <!--Second page-->
+
+    <div id="secondScreenWrapper">
+        <section class="contentBlock">
+            <div id="blockSecondPage">
+                <h2 id="rappresent">Rappresent your idea with
+                    a smart Design</h2>
+                <p id="tasks">Tasks accompanying and related to programming include: testing, debugging, source code maintenance,
+                     <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs. </p>
+                    
+                    <div class="wrapper">
+                        <button type="button" class="button" id="secondScreenButton">get started</button>
+                    </div>
+            </div>
+                  
+        </section>
+
+        <img id="secondScreenImage" src="../webdev/img/content-image-1.png" alt="image">
+
+    </div>
+
+    <!--third page-->
+        
+<div id="thirdScreen">  
+    <article id="ourCommunity">
+            <img id='icon' src="../webdev/img/icon3.png" alt="icon">
+        <section id="ourCommunityText">
+            <h3>our community</h3>
+            <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem,
+                 but it can also mean a security hacker in common language</p>
+        </section>      
+    </article>
+
+    <nav id='nav'>
+
+        
+        <!--тут я понял что нужно отдохнуть-->
+        <div id="1/5">
+            <p id="rectangle1">&nbsp;</p>
+            <p>1</p>
+            <p>/</p>
+            <p>5</p>
+            <p id="rectangle2">&nbsp;</p>
+        </div>
+        
+        
+        
+    </nav>
+
    
-    <section id="languages">
-      <h2>English</h2>
-      <p>B2</p>
+    <section id="slider">
+        <img class="sliderItems" src="../webdev/img/Rectangle 2.png" alt="slide1" >
+        <img class="sliderItems" src="../webdev/img/Rectangle 3.png" alt="slide2">
+        <img class="sliderItems" src="../webdev/img/Rectangle 4.png" alt="slide3">
     </section>
     
-    <section id="profile">
-      <h2>About myself</h2>
-      <p>Starting as an absolute beginner.<br>
-         Hope to become an WEB developer to acquare new skills and 
-         moral or material rewards.</p>
-    </section>
-   
-    <section id="education">
-      <h2>Education</h2>
-      <p>Courses on <a href=https://ru.code-basics.com/>Code basics</a> on HTML, CSS and JavaScript</p>
-    </section>
- 
-
+</div> 
 </body>
 </html>
