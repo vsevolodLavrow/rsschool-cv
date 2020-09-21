@@ -1,0 +1,249 @@
+body {
+    /*Position*/
+    position: relative;
+    width: 1600px;
+    height: 4182px;
+
+    /*typography*/
+    font: normal 14px 'Roboto', sans-serif;
+    line-height: 140%;
+    color: #C4C4C4;
+
+    /*Visual*/
+    background-color: #ffffff;
+}
+    /*First Screen image wraper*/
+
+h2 {
+    font: normal bold 24px/28px 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#firstScreen {
+    background-image: url(../img/bg-image-wrapper.png);
+    position: absolute;
+    width: 1600px;
+    height: 744px;
+    left: 0px;
+    top: 0px;
+}
+
+    /* header */
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 25px;
+}
+
+
+#syllabus {
+    position: absolute;
+    left: 625px;
+    top: 27px;
+}
+#syllabus:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+#about {
+    position: absolute;
+    left: 502px;
+    top: 27px;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+#about {
+    cursor: pointer;
+}
+
+
+#project {
+    position: absolute;
+    left: 923px;
+    top: 27px;
+}
+#project:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#faq {
+    position: absolute;
+    left: 1058px;
+    top: 27px;
+}
+#faq:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*you life is web*/
+
+#promo {
+    position: absolute;
+    width: 750px;
+    height: 150px;
+    left: 435px;
+    top: 231px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#life {
+    position: absolute;
+    bottom: 13px;
+    font: normal 700 64px/75px 'Roboto', sans-serif;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#whatever {
+    font: normal 400 18px/25.2px 'Roboto', sans-serif;
+
+    position: absolute;
+    left: 113px;
+    top: 77px;
+    width: 504px;
+    height: 50px;
+    
+}
+
+#firstScreenButton {
+    position: absolute;
+    left: 709px;
+    top: 406px;
+}
+
+
+/*button*/
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    font: normal 700 14px/16.41px 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff; 
+    width: 184px;
+    height: 46px;
+    background-color: #00AFDB;
+}
+.button:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+
+    /* Socials */
+    
+    #mail {
+        position: absolute;
+        left: 715px;
+        bottom: 89px;
+    }
+    #mail:hover {
+        cursor: pointer;
+    }
+    #fbook {
+        position: absolute;
+        left: 765px;
+        bottom: 89px;
+    }
+    #fbook:hover {
+        cursor: pointer;
+    }
+    #instagram {
+        position: absolute;
+        left: 815px;
+        bottom: 89px;
+    }
+    #instagram:hover {
+        cursor: pointer;
+    }
+    #telegram {
+        position: absolute;
+        left: 865px;
+        bottom: 89px;
+    }
+    #telegram:hover {
+        cursor: pointer;
+    }
+
+    /*Second Page*/
+
+#secondScreenWrapper {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: 0px;
+    top: 744px;
+} 
+
+.contentBlock {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+
+#blockSecondPage{
+    position: absolute;
+    left: 268px;
+    top: 295px;
+    width: 407px;
+    height: 233px;
+}
+
+#secondScreenImage {
+    position: absolute;
+    left: 923px;
+    top: 120px;
+}
+
+#rappresent {
+    position: absolute;
+    width: 370px;
+    height: 57px;
+    left: 0px;
+    top: -20px;
+
+    color: #373737;
+}
+
+#tasks {
+    position: absolute;
+    left: 0px;
+    top: 64px;
+
+    font: normal 500 14px/19.6px 'Roboto', sans-serif;
+    color: #4e4e4e;
+
+}
+
+#secondScreenButton {
+    position: absolute;
+    left: 0px;
+    top: 187px;
+
+}
