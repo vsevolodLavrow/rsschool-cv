@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../webdev/css/styles.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Your life is webdev</title>
 </head>
 <body>
 
     <section id="firstScreen">
-        <header>
-            <p id="about">About</p>
-            <p id="syllabys">Syllabus</p>
-            <img src="../webdev/img/firstScreen/logo.png" alt="logo" id="logo">
-            <p id="project">Projects</p>
-            <p id="faq">FAQ</p>
+
+
+        <header class="header">
+                <img src="../webdev/img/firstScreen/logo.png" alt="logo" id="logo">
+            <nav>
+                <p id="about">About</p>
+                    
+                <p id="syllabus">Syllabus</p>
+                <p id="project">Projects</p>
+                <p id="faq">FAQ</p>
+            </nav>
         </header>
         
-        <main>
-            <h2>your life is webdev</h2>
-            <p>wathever the approach to developement may be, 
-                the final program must satisfy some fudamental properties</p>
-            <button type="button"><h3>get started<h3></button>
-        </main>
+        <section class="promo">
+            <div class="content">
+                    <h1 id="life">your life is WebDev</h1>
+                    <p id="whatever">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+                </div>
+        </section>
+        <div class="wrapper">
+            <button type="button" class="button" id="firstScreenButton">get started</button>
+        </div>
 
         <div id="socials">
-            <img src="../webdev/img/firstScreen/mail.png" alt="mail"  style="padding: 0px 15px 0px 0px;">
-            <img src="../webdev/img/firstScreen/facebook.png" alt="fbook" style="padding: 0px 15px;">
-            <img src="../webdev/img/firstScreen/instagram.png" alt="insta" style="padding: 0px 15px;">
-            <img src="../webdev/img/firstScreen/telegram.png" alt="telegram" style="padding: 0px 0px 0px 15px;">
+            <img id="mail" src="../webdev/img/firstScreen/mail.png" alt="mail" >
+            <img id="fbook" src="../webdev/img/firstScreen/facebook.png" alt="fbook">
+            <img id="instagram" src="../webdev/img/firstScreen/instagram.png" alt="instagram" >
+            <img id="telegram" src="../webdev/img/firstScreen/telegram.png" alt="telegram" >
         </div>
     </section>
     

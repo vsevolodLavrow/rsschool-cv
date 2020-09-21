@@ -1,46 +1,3 @@
-/* body-14-regular */
-
-@font-face {
-    font-family: Roboto, sans-serif;
-    src: url(../css/fonts/Roboto-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 140%;
-
-    color: #C4C4C4;
-}
-
-/* h2-24-bold-eppercase */
-
-@font-face {
-    font-family: Roboto, sans-serif;
-    src: url(../css/fonts/Roboto-Bold.ttf);
-    font-style: normal;
-    font-weight: bolt;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-    color: #C4C4C4;
-}
-
-/* h3-16-bold-uppercase */
-
-@font-face {
-    font-family: Roboto, sans-serif;
-    src: url(../css/fonts/Roboto-Bold.ttf);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 2.4px;
-    text-transform: uppercase;
-
-    color: #C4C4C4;
-}
-
 body {
     /*Position*/
     position: relative;
@@ -48,13 +5,12 @@ body {
     height: 4182px;
 
     /*typography*/
-    font: normal 14px Roboto, sans-serif;
+    font: normal 14px 'Roboto', sans-serif;
     color: #C4C4C4;
 
     /*Visual*/
     background-color: #ffffff;
 }
-
     /*First Screen image wraper*/
 
 #firstScreen {
@@ -64,23 +20,16 @@ body {
     height: 744px;
     left: 0px;
     top: 0px;
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
-header {
+    /* header */
+.header {
     position: absolute;
     width: 1600px;
     height: 95px;
     left: 0px;
     top: 0px;
-
-    display: flex;
-    align-items: center;
 }
-
 #logo {
     position: absolute;
     width: 44px;
@@ -88,49 +37,136 @@ header {
     left: 778px;
     top: 25px;
 }
-
-#about{
+#syllabus {
     position: absolute;
-    width: 38px;
-    height: 20px;
+    left: 625px;
+    top: 27px;
+}
+#syllabus:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+#about {
+    position: absolute;
     left: 502px;
-    
+    top: 27px;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
 }
-#syllabys{
-    position: absolute;
-    width: 53px;
-    height: 20px;
-    left: 620px;
-    
+#about {
+    cursor: pointer;
 }
-#project{
+#project {
     position: absolute;
-    width: 52px;
-    height: 20px;
     left: 923px;
-    
+    top: 27px;
 }
-#faq{
+#project:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#faq {
     position: absolute;
-    width: 26px;
-    height: 20px;
     left: 1058px;
+    top: 27px;
+}
+#faq:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-#socials {
+/* Socials */
+
+#mail {
     position: absolute;
+    left: 715px;
     bottom: 89px;
-    width: 200px;
-    height: 20px;
+}
+#mail:hover {
+    cursor: pointer;
+}
+#fbook {
+    position: absolute;
+    left: 765px;
+    bottom: 89px;
+}
+#fbook:hover {
+    cursor: pointer;
+}
+#instagram {
+    position: absolute;
+    left: 815px;
+    bottom: 89px;
+}
+#instagram:hover {
+    cursor: pointer;
+}
+#telegram {
+    position: absolute;
+    left: 865px;
+    bottom: 89px;
+}
+#telegram:hover {
+    cursor: pointer;
 }
 
-button {
+/*you life is web*/
+
+.promo {
     position: absolute;
-    left: 707px;
+    width: 750px;
+    height: 150px;
+    left: 435px;
+    top: 231px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#life {
+    position: absolute;
+    bottom: 13px;
+    font: normal 700 64px/75px 'Roboto', sans-serif;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#whatever {
+    font: normal 400 18px/25.2px 'Roboto', sans-serif;
+
+    position: absolute;
+    left: 113px;
+    top: 77px;
+    width: 504px;
+    height: 50px;
+   
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    font: normal 700 14px/16.41px 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff; 
     width: 184px;
     height: 46px;
-    padding: 15px 47px;
+    background-color: #00AFDB;
+}
+.button:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
 
-    background: #00AFDB;
-
+#firstScreenButton {
+    position: absolute;
+    left: 709px;
+    top: 406px;
 }
