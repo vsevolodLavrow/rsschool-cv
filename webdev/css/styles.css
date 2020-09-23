@@ -362,7 +362,7 @@ h3 {
     align-items: left;
 }
 
-        #contentHead {
+        #contentTitle {
 
             width: 300px;
             height: 28px;
@@ -412,7 +412,7 @@ background-image: url(../img/pexels-christina-morillo-1181675\ 1.png);
         
     }
 
-        #headFifthScreen {
+        #TitleFifthScreen {
             position: absolute;
             width: 390px;
             height: 28px;
@@ -465,7 +465,7 @@ background-image: url(../img/pexels-christina-morillo-1181675\ 1.png);
         text-align: center;
     }
 
-    #contentPage6_header {
+    #contentPage6_Title {
         position: absolute;
         width: 270px;
         height: 28px;
@@ -539,4 +539,56 @@ background-image: url(../img/pexels-christina-morillo-1181675\ 1.png);
         align-items: flex-end;
         text-align: center;
     }
-           
+       
+#footer{
+        position: absolute;
+        width: 1600px;
+        height: 184px;
+        left: 0px;
+        top: 3998px;
+
+        background: #000000;
+ }
+
+
+       #additionalMenu {
+        position: absolute;
+        width: 280px;
+        height: 20px;
+        left: 120px;
+        bottom: 77px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       }
+
+     .divider{
+         position: relative;
+         width: 0px;
+         height: 20px;
+         bottom: 5px;
+         transform: rotate(90deg);
+         margin: 0px 20px;
+         align-items: center;
+
+         color: #4E4E4E;
+     } 
+     
+     #footerLogo {
+            
+        position: absolute;
+        width: 44px;
+        height: 45px;
+        left: 778px;
+        bottom: 79px;
+
+     }
+     #copyright {
+        position: absolute;
+        width: 170px;
+        height: 20px;
+        left: 1293px;
+        bottom: 76px;
+        color: #818181;
+     }
