@@ -57,7 +57,7 @@ h3 {
 #syllabus {
     position: absolute;
     left: 625px;
-    top: 27px;
+    top: 25px;
 }
 #syllabus:hover {
     cursor: pointer;
@@ -69,7 +69,7 @@ h3 {
 #about {
     position: absolute;
     left: 502px;
-    top: 27px;
+    top: 25px;
     display: inline-block;
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
@@ -79,7 +79,7 @@ h3 {
 #project {
     position: absolute;
     left: 923px;
-    top: 27px;
+    top: 25px;
 }
 #project:hover {
     cursor: pointer;
@@ -90,7 +90,7 @@ h3 {
 #faq {
     position: absolute;
     left: 1058px;
-    top: 27px;
+    top: 25px;
 }
 #faq:hover {
     cursor: pointer;
@@ -113,7 +113,7 @@ h3 {
 
 #life {
     position: absolute;
-    bottom: 13px;
+    bottom: 24px;
     font: normal 700 64px/75px 'Roboto', sans-serif;
     letter-spacing: 4.5px;
     text-transform: uppercase;
@@ -126,7 +126,7 @@ h3 {
 
     position: absolute;
     left: 113px;
-    top: 77px;
+    top: 84px;
     width: 504px;
     height: 50px;
     
@@ -134,7 +134,7 @@ h3 {
 
 #firstScreenButton {
     position: absolute;
-    left: 709px;
+    left: 706px;
     top: 406px;
 }
 
@@ -154,6 +154,9 @@ h3 {
     height: 46px;
     background-color: #00AFDB;
     border: none;
+    border-radius: 0px;
+    align-items: center;
+
     
 }
 .button:hover {
@@ -263,6 +266,7 @@ h3 {
     top: 1586px;
 
     background-color: #f5f6f7;
+    overflow:hidden;
 }
 
 
@@ -270,8 +274,8 @@ h3 {
     position: absolute;
     width: 300px;
     height: 175px;
-    left: 269px;
-    top: 156px;
+    left: 276px;
+    top: 153px;
 
     text-align: center;
     color: #4e4e4e;
@@ -288,50 +292,65 @@ h3 {
     width: 300px;
     height: 110px;
     left: 0px;
-    top: 45px;
+    top: 48px;
+
 
     color: #373737;
 }
+
+#ourCommunity_hacker {
+    position: relative;
+    top: -3px;
+}
+
 #slider{
     position: absolute;
-    width: 1000px;
+    width: 300px;
     height: 244px;
-    left: 706px;
-    top: 120px;
+    left: 714px;
+    top: 117px;
     display: flex;
-    
-
+ 
 }
+
+#sliderItem_3{  
+}
+
+
 .sliderItems {
     padding-right: 30px;
+    
 }
 
 #nav{ 
     font: normal 400 18px/25.2px 'Roboto', sans-serif;
     color: #373737;
 
-    position: absolute;
-    width: 80px;
-    height: 20px;
-    left: 1249px;
-    top: 60px;
-
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
 }
 
-#rectangle1 {
+#navOption {
     position: absolute;
-    width: 8px;
-    height: 8px;
-    left: 0px;
-    top: 10px;
+    width: 83px;
+    height: 20px;
+    left: 1255px;
+    top: 71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 
-    border-bottom: 2px solid #373737;
-    border-left: 2px solid #373737;
-    box-sizing: border-box;
-    transform: rotate(45deg);
+}
+#rextangle{
+    margin: 0px 10px;
+}
+
+#rectangle:hover {
+    cursor: pointer;
 }
 
 /*fourth page*/
