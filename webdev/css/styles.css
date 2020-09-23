@@ -611,3 +611,8 @@ background-image: url(../img/pexels-christina-morillo-1181675\ 1.png);
         bottom: 76px;
         color: #818181;
      }
+
+     .listItem:hover {
+         cursor: pointer;
+         text-decoration: underline;
+     }
